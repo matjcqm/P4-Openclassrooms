@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #252525!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #353535!important;
 }
 
 .portfolio-thumb {
@@ -771,16 +771,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #e4c2b4;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f1d5c8!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #e4c2b4;
+    color: rgb(36, 36, 36)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +822,27 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.col-sm-4{
+    color: black;
+    text-decoration: none;
+}
+
+.keywords{
+    margin: 20px 0px;
+}
+
+.citation{
+    font-size: 19px;
+    font-style: italic;
+    color:#444444!important;
+}
+
+.citation-text{
+    font-size: 18px;
+    color: #5f5f5f!important;
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1045,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    li{
+        margin-top: 20px;
     }
 }
 
