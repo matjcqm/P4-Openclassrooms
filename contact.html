@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -13,16 +13,28 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+	<script defer src="./js/jquery-2.1.0.min.js"></script>
+	<script defer src="./js/bootstrap.min.js"></script>
+	<script defer src="./js/blocs.min.js"></script>
+	<script defer src="./js/jqBootstrapValidation.js"></script>
+	<script defer src="./js/formHandler.js"></script>
+    <title>Contact</title>
 
     
 <!-- Analytics -->
- 
+<script
+async
+src="https://www.googletagmanager.com/gtag/js?id=G-K55Y44DZB9"
+></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-K55Y44DZB9");
+</script>
 <!-- Analytics END -->
     
 </head>
@@ -48,7 +60,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -80,7 +92,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Nom
@@ -135,22 +147,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span>Twitter</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span>Facebook</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span>Dribble</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span>Instagram</a>
 						</div>
 					</div>
 				</div>
